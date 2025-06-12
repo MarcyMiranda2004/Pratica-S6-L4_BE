@@ -89,6 +89,7 @@ public class AuthorsService {
         message.setTo(email);
         message.setSubject("Registrazione Servizio rest");
         message.setText("Registrazione al servizio rest avvenuta con successo");
+        message.setFrom("marcellomiranda2004@gmail.com");
 
         javaMailSender.send(message);
     }
